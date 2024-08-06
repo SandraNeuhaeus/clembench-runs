@@ -1,0 +1,480 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Aşağıdaki görevi yapalım. Amaç şuna benzeyen boş bir matrisi doldurmaktır:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Aşağıdaki dolu matris 5'e 5'tir ve şu şekildedir:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ E ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Bu tabloyu bana adım adım anlatmanızı istiyorum. "▢" ile gösterilen boş kareleri açıklamanıza gerek yok. Yalnızca matrisdeki harflerin konumunu açıklayın. Daha sonra "Bir sonraki komutunuz nedir?" dememi bekliyorsunuz ve bir sonraki adıma geçiyorsunuz. Komutları verirken matris boyutunu dikkate alın. Her şeyi anlattığınızda "BİTTİ" diyorsunuz.\\ \tt \\ \tt Yukarıdaki doldurulmuş matris için örnek adımları burada bulabilirsiniz.\\ \tt \\ \tt Bir sonraki komutunuz nedir?\\ \tt Komut: İkinci satırın üçüncü sütununa E koyun\\ \tt \\ \tt Bir sonraki komutunuz nedir?\\ \tt Komut: Son satırı X ile doldurun\\ \tt \\ \tt Bir sonraki komutunuz nedir?\\ \tt Komut: BİTTİ\\ \tt \\ \tt Lütfen bunu 5'e 5'lik bir matris olan aşağıdaki örnek için yapın.\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Bir sonraki komutunuz nedir?\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: Dördüncü satırı Q ile doldurun\\ \tt \\ \tt Bir sonraki komutunuz nedir?\\ \tt Komut: BİTTİ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Komut: Dördüncü satırı Q ile doldurun 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Birlikte bir matris çizelim. 5'e 5 boyutunda boş bir matris var, ve şöyle:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Size "sol üste bir X koyun" gibi komutlar vereceğim ve siz de verilen komutu şu şekilde uygulayarak matrisi oluşturacaksınız:\\ \tt \\ \tt Komut: sol üst köşeye bir X koyun\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Şimdi 5'e 5 boyutunda boş bir matris oluşturun ve her adımda aşağıdaki komutları uygulayın. Komutu çalıştırdığınızda yalnızca matrisi döndürün ve diğer tüm metni çıktının dışında bırakın.\\ \tt Komut: Dördüncü satırı Q ile doldurun 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 X ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 X ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: İlk satırın beşinci sütununa "A" koyun\\ \tt \\ \tt Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Komut: İlk satırın beşinci sütununa "A" koyun 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Komut: İlk satırın beşinci sütununa "A" koyun 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 X ▢ ▢ ▢ A\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 X ▢ ▢ ▢ A\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: İkinci satırın ilk sütununa "B" koyun\\ \tt \\ \tt Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Komut: İkinci satırın ilk sütununa "B" koyun 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Komut: İkinci satırın ilk sütununa "B" koyun 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: Üçüncü satırın ikinci sütununa "C" koyun\\ \tt \\ \tt Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Komut: Üçüncü satırın ikinci sütununa "C" koyun 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Komut: Üçüncü satırın ikinci sütununa "C" koyun 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ C ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ C ▢ ▢ ▢\\ \tt Q Q Q Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: Dördüncü satırın üçüncü sütununa "D" koyun\\ \tt \\ \tt Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Komut: Dördüncü satırın üçüncü sütununa "D" koyun 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Komut: Dördüncü satırın üçüncü sütununa "D" koyun 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ C ▢ ▢ ▢\\ \tt Q Q D Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ C ▢ ▢ ▢\\ \tt Q Q D Q Q\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: Beşinci satırın dördüncü sütununa "E" koyun\\ \tt \\ \tt Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Komut: Beşinci satırın dördüncü sütununa "E" koyun 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Komut: Beşinci satırın dördüncü sütununa "E" koyun 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ C ▢ ▢ ▢\\ \tt Q Q D Q Q\\ \tt ▢ ▢ ▢ E ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 X ▢ ▢ ▢ A\\ \tt B ▢ ▢ ▢ ▢\\ \tt ▢ C ▢ ▢ ▢\\ \tt Q Q D Q Q\\ \tt ▢ ▢ ▢ E ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Bir sonraki komutunuz nedir? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Komut: BİTTİ\\ \tt \\ \tt Bu, 5x5 matrisi dolduran adımların sonu. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

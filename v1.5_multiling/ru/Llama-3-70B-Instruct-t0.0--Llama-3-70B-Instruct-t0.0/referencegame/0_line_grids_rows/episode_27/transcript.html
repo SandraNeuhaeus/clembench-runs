@@ -1,0 +1,162 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <style>
+        /* This CSS is an adaptation from the answer by Roko C. Buljan in https://stackoverflow.com/a/71155446 */ 
+
+* {margin: 0; box-sizing: border-box;}
+
+body {background-color: rgb(157, 152, 150);}
+
+  /* dialogue header */
+
+.top-info {
+  text-align: center;
+  --rad: 20px;
+  --rad-sm: 3px;
+  font: 20px/1.5 sans-serif;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  max-width: 900px;
+  margin: auto;
+  background: #3f3e3e;
+  color: #fff;
+}
+
+.chat {
+    --rad: 20px;
+    --rad-sm: 3px;
+    font: 16px/1.5 sans-serif;
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    max-width: 900px;
+    margin: auto;
+    background: #fff;
+  }
+  
+  .msg {
+    position: relative;
+    max-width: 75%;
+    padding: 7px 15px;
+    margin-bottom: 30px;
+  }
+  
+  /* 5 levels, two players to/from game master and meta messages form game master */
+
+  .msg.b-gm {
+    border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+    background: #874aaf;
+    color: #fff;
+    margin-left: 60%;
+  }
+
+  .msg.a-gm {
+    border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+    background: #f39109;
+    color: #fff;
+    margin-right: 60%;
+  }
+  
+  .msg.gm-a {
+    border-radius: var(--rad) var(--rad-sm) var(--rad-sm) var(--rad);
+    background: #c4c3c3;    
+    color: #0c0c0c;
+    margin-right: 40%;
+    margin-left: 20%;
+  }
+
+  .msg.gm-b {
+    border-radius: var(--rad-sm) var(--rad) var(--rad) var(--rad-sm);
+    background: #c4c3c3;
+    color: #0c0c0c;
+    margin-right: 20%;
+    margin-left: 40%;
+  }
+
+  .msg.gm-gm {
+    background: #f1f1f1;
+    color: #373636;
+    margin-left: 40%;
+    margin-right: 40%;
+    font-size: 0.8rem;
+
+  }
+  
+  /* speaker labels */
+  
+  .msg::before {
+    content: attr(speaker);
+    font-size: 0.8rem;
+    position: absolute;
+    bottom: 100%;
+    color: #888;
+    white-space: nowrap;
+
+  }
+  
+  .msg.b-gm::before {
+    right: 15px;
+  }
+
+  .msg.gm-a::before {
+    right: 15px;
+  }
+
+  .msg.a-gm::before {
+    left: 15px;
+  }
+
+  .msg.gm-b::before {
+    left: 15px;
+  }
+
+  .msg.gm-gm::before {
+    left: 0px;
+  }
+  
+
+    </style>
+</head>
+<body>
+
+<br/>
+
+<div class="top-info">
+    <p>Interaction Transcript for line_grids_rows, episode 27 with Llama-3-70B-Instruct-t0.0--Llama-3-70B-Instruct-t0.0.</p>
+</div>
+
+<br/>
+
+<div class="chat">
+
+    <div speaker="Game Master to Player 1" class="msg gm-a">
+        <p>Тебе даны три сетки, каждая размером 5 на 5.<br/>В сетках есть пустые ячейки &quot;▢&quot; и ячейки заполненные символом &quot;X&quot;.<br/>Твоя задача сгенерировать выражение, которое наилучшим образом описывает целевую сетку и при этом отличает ее от двух других отвлекающих сеток.<br/>Первая решетка является целевой решеткой, а две последующие решетки - отвлекающие.<br/><br/>Целевая решетка:<br/><br/>X X X X X<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/>▢ ▢ ▢ ▢ ▢<br/><br/>Отвлекающая решетка 1:<br/><br/>▢ ▢ ▢ ▢ ▢<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/><br/>Отвлекающая решетка 2:<br/><br/>X X X X X<br/>▢ ▢ ▢ ▢ ▢<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/><br/>Инструкция: Опиши целевую решетку.<br/>Сгенерируй описание целевой решетки начиная ответ тегом &quot;Выражение: &quot;. Воздержись от использования другого текста.</p>
+    </div>
+
+    <div speaker="Player 1 to Game Master" class="msg a-gm">
+        <p>Выражение: &quot;Все строки, кроме последней, полностью заполнены символом &#x27;X&#x27;, а последняя строка полностью пустая.&quot;</p>
+    </div>
+
+    <div speaker="Game Master: parse" class="msg gm-gm">
+        <p>Выражение: &quot;Все строки, кроме последней, полностью заполнены символом &#x27;X&#x27;, а последняя строка полностью пустая.&quot;</p>
+    </div>
+
+    <div speaker="Game Master to Player 2" class="msg gm-b">
+        <p>Тебе даны три сетки, каждая размером 5 на 5.<br/>В сетках есть пустые ячейки &quot;▢&quot; и ячейки заполненные символом &quot;X&quot;.<br/>Еще ты получишь выражение, которое описывает одну из данных решеток.<br/>Твоя задача выбрать решетку, которая подходит под описание.<br/>Сгенерируй только номер (в формате текста) решетки, которая подходит под описание используя слова: первая, вторая, или третья.<br/><br/>Первая:<br/><br/>X X X X X<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/>▢ ▢ ▢ ▢ ▢<br/><br/>Вторая:<br/><br/>▢ ▢ ▢ ▢ ▢<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/><br/>Третья:<br/><br/>X X X X X<br/>▢ ▢ ▢ ▢ ▢<br/>X X X X X<br/>X X X X X<br/>X X X X X<br/><br/>Выражение: &quot;Все строки, кроме последней, полностью заполнены символом &#x27;X&#x27;, а последняя строка полностью пустая.&quot;<br/>Вопрос: К какой решетке относится выражение?<br/>Начни ответ с тега &quot;Ответ: &quot;, затем напиши ответ. Воздержись от использования другого текста.<br/></p>
+    </div>
+
+    <div speaker="Player 2 to Game Master" class="msg b-gm">
+        <p>Ответ: первая</p>
+    </div>
+
+    <div speaker="Game Master: parse" class="msg gm-gm">
+        <p>Ответ: первая</p>
+    </div>
+
+</div>
+
+</body>
+</html>

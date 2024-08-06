@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Hagamos la siguiente tarea. El objetivo es llenar una cuadrícula vacía que se ve así:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Por ejemplo, una cuadrícula llena de 5 por 5 puede verse así:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ E ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Quiero que me describas esta cuadrícula, paso a paso. No es necesario describir los cuadrados vacíos, que se indican con "▢". Describe únicamente la ubicación de las letras en la cuadrícula. Luego esperas a que te diga "¿Cuál es tu próximo comando?", y entonces continúas con el siguiente paso. Ten en cuenta el tamaño de la cuadrícula al dar comandos. Cuando hayas descrito todo, dices "HECHO".\\ \tt \\ \tt Para la cuadrícula completa del ejemplo de arriba, estos son los pasos.\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt Comando: Pon una E en la tercera columna de la segunda fila.\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt Comando: Llena la última fila con equis ("X")\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt Comando: HECHO\\ \tt \\ \tt OK. Por favor haz esto para el siguiente ejemplo, que es una cuadrícula de 5 por 5.\\ \tt \\ \tt U U U U U\\ \tt U U U U U\\ \tt U U U U U\\ \tt U U ▢ U U\\ \tt U ▢ ▢ ▢ U\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Comando: Llena la primera fila con la letra "U".\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt Comando: Llena la segunda fila con la letra "U".\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt Comando: Llena la tercera fila con la letra "U".\\ \tt \\ \tt ¿Cuál es tu próximo comando?\\ \tt Comando 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Comando: Llena la primera fila con la letra "U". 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Dibujemos algo juntos. Hay una cuadrícula vacía con un tamaño de 5 por 5, así:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Te daré comandos como "pon una X en la parte superior izquierda" y devolverás la cuadrícula aplicando los comandos dados, así:\\ \tt \\ \tt Comando: pon una X en la parte superior izquierda\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Ahora crea una cuadrícula vacía con un tamaño de 5 por 5 y ejecuta los siguientes comandos en cada paso. Una vez que ejecutes los comandos, devuelve solo la cuadrícula y excluye todo el resto del texto.\\ \tt Comando: Llena la primera fila con la letra "U". 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 🇺 🇺 🇺 🇺 🇺\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid grid format 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

@@ -1,0 +1,60 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Size üç sany gözenek berilýär, olaryň hersiniň ululygy 5-den 5-e çenli.\\ \tt Torlarda "▢" bilen bellenen boş öýjükler we "X" bilen bellenen öýjükler bar.\\ \tt Siziň wezipäňiz, beýleki iki daşlaşdyryjy gözenekden tapawutlandyryp, maksat toruny has gowy suratlandyrýan salgylanma aňlatmasyny döretmekdir.\\ \tt Birinji gözenek maksatly gözenekdir we aşakdaky iki gözenek ünsüni bölýär.\\ \tt \\ \tt Maksatlaýyn set:\\ \tt \\ \tt ▢ X X X X\\ \tt ▢ X X X X\\ \tt ▢ X X X X\\ \tt ▢ X X X X\\ \tt ▢ X X X X\\ \tt \\ \tt Distraktor paneli 1:\\ \tt \\ \tt X ▢ X X X\\ \tt X ▢ X X X\\ \tt X ▢ X X X\\ \tt X ▢ X X X\\ \tt X ▢ X X X\\ \tt \\ \tt Distraktor paneli 2:\\ \tt \\ \tt X X ▢ X X\\ \tt X X ▢ X X\\ \tt X X ▢ X X\\ \tt X X ▢ X X\\ \tt X X ▢ X X\\ \tt \\ \tt Görkezme: Maksatlaýyn seti suratlandyryň.\\ \tt Berlen maksat paneli üçin "Aňlatmasyny:" belliginden başlap, salgylanma aňlatmasyny dörediň. Başga teksti goýuň. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Aňlatma: \\ \tt Maksat panelinde, ýeke-täk ýerleşen boş öýjükler ("▢") ýokdur. Boş öýjükler ("▢") ýeke-täk ýerleşen ýerine, ýeke-täk ýerleşen boş öýjükler ("▢") ýokdur. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid generated expression 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

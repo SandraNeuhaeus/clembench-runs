@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Aşakdaky meseläni ýerine ýetireliň. Maksat, şuňa meňzeş boş gözenegi doldurmak:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Aşakda doldurylan gözenek 5-den 5-e çenli we şeýle bolup biler:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ E ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Bu seti maňa ädimme-ädim suratlandyrmagyňyzy isleýärin. "▢" bilen görkezilen boş öýjükleri suratlandyrmagyň zerurlygy ýok. Gözenekdäki diñe harplaryň öýjüklerini suratlandyryň. Soňra "Indiki buýrugyñyz näme?" diýmegime garaşýarsyňyz, soň bolsa indiki ädimiňizi dowam etdirersiňiz. Görkezmeler berlende gözenegiň ululygyny göz öňünde tutuň. Hemme zady suratlandyranyňyzda "GUTARDY" diýýärsiňiz.\\ \tt \\ \tt Aboveokardaky doldurylan gözenek üçin mysal ädimleri.\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt Buýruk: E-ni ikinji hatar üçünji sütüne goýuň\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt Buýruk: Iň soňky hatary X bilen dolduryň\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt Buýruk: GUTARDY\\ \tt \\ \tt Bolýar. Aşakdaky mysal üçin muny 5-den 5-e çenli gözenek bilen ýerine ýetirmegiňizi haýyş edýäris.\\ \tt \\ \tt G G G G G\\ \tt ▢ G ▢ ▢ ▢\\ \tt ▢ ▢ G ▢ ▢\\ \tt ▢ ▢ ▢ G ▢\\ \tt G G G G G\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Buýruk: Birinji hataryň ikinji öýjükini G bilen dolduryň\\ \tt \\ \tt Indiki buýrugyňyz näme?\\ \tt Buýruk: Ikinji hataryň üçünjisi G bilen dolduryň\\ \tt \\ \tt Indiki buýrugyňyz näme?\\ \tt Buýruk: Üçüncisi hataryň dördünjisi G bil 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Buýruk: Birinji hataryň ikinji öýjükini G bilen dolduryň 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Geliň, bilelikde bir zat çekeliň. 5-den 5-e çenli ululykdaky boş gözenek bar:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Size "ýokarky çep tarapda X goýuň" ýaly buýruklar bererin, berlen buýrugy ulanyp, seti yzyna berersiňiz:\\ \tt \\ \tt Buýruk: ýokarky çep tarapda X goýuň\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Indi 5-den 5 ululykdaky boş gözenek dörediň we her ädimde aşakdaky buýruklary ýerine ýetiriň. Buýrugy ýerine ýetireniňizden soň, diňe gözenegi yzyna gaýtaryň we beýleki tekstleri çykyşdan çykaryň.\\ \tt Buýruk: Birinji hataryň ikinji öýjükini G bilen dolduryň 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 I'm sorry for the inconvenience, but I'm currently only able to understand and generate English text. However, I can help you understand the instructions in English.\\ \tt \\ \tt The instructions are asking you to fill a 5x5 grid with the letter "X" based on certain commands. After each command, you should clear the grid and start again. The commands will tell you where to place the "X" in the grid.\\ \tt \\ \tt For example, the command "Place 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid grid format 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

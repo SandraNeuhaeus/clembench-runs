@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Du siehst drei Gitter, die jeweils 5 x 5 Zellen haben.\\ \tt Die leeren Zellen sind mit "▢" markiert und die gefüllten Zellen sind mit "X" markiert.\\ \tt Deine Aufgabe ist es, eine möglichst kurze, natürlichsprachliche Beschreibung zu finden, die das Zielgitter beschreibt und gleichzeitig nicht zu den anderen beiden Ablenkern passt.\\ \tt Das erste Gitter ist das zu Beschreibende, die beiden folgenden sind die Ablenkungsgitter.\\ \tt \\ \tt Zielgitter:\\ \tt \\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt \\ \tt Ablenkungsgitter 1:\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt \\ \tt Ablenkungsgitter 2:\\ \tt \\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt Anweisung: Beschreibe das Zielgitter, beginnend mit dem Präfix "Ausdruck: ". Verzichte auf jegliche weiteren Ausführungen.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Ausdruck: Fünf mal fünf Zellen, jede Zeile enthält genau zwei "X" und drei leere Felder, verteilt wie folgt: Das erste und letzte Feld jeder Zeile sind leer, während die beiden "X" in den mittleren Positionen liegen. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Ausdruck: Fünf mal fünf Zellen, jede Zeile enthält genau zwei "X" und drei leere Felder, verteilt wie folgt: Das erste und letzte Feld jeder Zeile sind leer, während die beiden "X" in den mittleren Positionen liegen. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Du siehst drei Gitter, die jeweils 5 x 5 Zellen haben.\\ \tt Die leeren Zellen sind mit "▢" markiert und die gefüllten Zellen sind mit "X" markiert.\\ \tt Außerdem bekommst du einen beschreibenden Ausdruck, der zu einem der Gitter passt.\\ \tt Deine Aufgabe ist es, das Gitter zu identifizieren, zu dem der Ausdruck am besten passt.\\ \tt Deine Antwort soll nur die Zahl des Gitters (als Text) enthalten, also erstes, zweites oder drittes.\\ \tt \\ \tt Erstes:\\ \tt \\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt Zweites:\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt \\ \tt Drittes:\\ \tt \\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt \\ \tt Ausdruck: Fünf mal fünf Zellen, jede Zeile enthält genau zwei "X" und drei leere Felder, verteilt wie folgt: Das erste und letzte Feld jeder Zeile sind leer, während die beiden "X" in den mittleren Positionen liegen.\\ \tt Frage: Zu welchem Gitter gehört dieser Ausdruck?\\ \tt Gib deine Antwort, beginnend mit dem Präfix "Antwort: ". Verzichte auf jegliche weiteren Ausführungen.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Antwort: Erstes 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Antwort: Erstes 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

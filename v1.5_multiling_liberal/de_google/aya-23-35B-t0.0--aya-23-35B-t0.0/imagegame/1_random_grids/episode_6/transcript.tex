@@ -1,0 +1,408 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Lassen Sie uns die folgende Aufgabe lösen. Das Ziel ist es, ein leeres Raster auszufüllen, das wie folgt aussieht:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Ein ausgefülltes Raster unten ist 5 x 5 und kann wie folgt aussehen:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ E ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Ich möchte, dass Sie mir dieses Raster Schritt für Schritt beschreiben. Sie müssen die leeren Felder, die mit „▢“ gekennzeichnet sind, nicht beschreiben. Beschreiben Sie nur die Position der Buchstaben im Raster. Dann warten Sie, bis ich sage „Was ist Ihr nächster Befehl?“, und fahren dann mit dem nächsten Schritt fort. Berücksichtigen Sie die Größe des Rasters, wenn Sie Befehle erteilen. Wenn Sie alles beschrieben haben, sagen Sie „FERTIG“.\\ \tt \\ \tt Hier sind die Beispielschritte für das ausgefüllte Raster oben.\\ \tt \\ \tt Was ist Ihr nächster Befehl?\\ \tt Befehl: Setzen Sie ein E in die zweite Zeile, dritte Spalte\\ \tt \\ \tt Was ist Ihr nächster Befehl?\\ \tt Befehl: Füllen Sie die letzte Zeile mit X\\ \tt \\ \tt Was ist Ihr nächster Befehl?\\ \tt Befehl: FERTIG\\ \tt \\ \tt Ok. Bitte machen Sie dies für das folgende Beispiel, das ein 5 x 5 Raster ist.\\ \tt ▢ J J ▢ ▢\\ \tt ▢ ▢ ▢ ▢ J\\ \tt ▢ ▢ J ▢ ▢\\ \tt J J ▢ J ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt Was ist Ihr nächster Befehl?\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Befehl: Setzen Sie ein J in die erste Zeile, zweite Spalte.\\ \tt \\ \tt Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Befehl: Setzen Sie ein J in die erste Zeile, zweite Spalte. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Lasst uns gemeinsam etwas zeichnen. Es gibt ein leeres Raster mit einer Größe von 5 x 5, wie folgt:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Ich gebe Ihnen Befehle wie „Setzen Sie oben links ein X“, und Sie geben das Raster zurück, indem Sie den angegebenen Befehl anwenden, wie folgt:\\ \tt \\ \tt Befehl: Setzen Sie oben links ein X\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Erstellen Sie nun ein leeres Raster mit einer Größe von 5 x 5 und führen Sie bei jedem Schritt die folgenden Befehle aus. Sobald Sie den Befehl ausgeführt haben, geben Sie nur das Raster zurück und schließen Sie allen anderen Text aus der Ausgabe aus.\\ \tt Befehl: Setzen Sie ein J in die erste Zeile, zweite Spalte. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 J ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 J ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Befehl: Setzen Sie ein J in die erste Zeile, dritte Spalte.\\ \tt \\ \tt Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Befehl: Setzen Sie ein J in die erste Zeile, dritte Spalte. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Befehl: Setzen Sie ein J in die erste Zeile, dritte Spalte. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 J J ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 J J ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, erste Spalte.\\ \tt \\ \tt Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, erste Spalte. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, erste Spalte. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 J J ▢ ▢ ▢\\ \tt J ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 J J ▢ ▢ ▢\\ \tt J ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, zweite Spalte.\\ \tt \\ \tt Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, zweite Spalte. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, zweite Spalte. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 J J ▢ ▢ J\\ \tt J ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 J J ▢ ▢ J\\ \tt J ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, dritte Spalte.\\ \tt \\ \tt Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, dritte Spalte. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Befehl: Setzen Sie ein J in die zweite Zeile, dritte Spalte. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 J J ▢ ▢ J\\ \tt J ▢ ▢ J ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 J J ▢ ▢ J\\ \tt J ▢ ▢ J ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢ 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Was ist Ihr nächster Befehl? 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Befehl: FERTIG 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

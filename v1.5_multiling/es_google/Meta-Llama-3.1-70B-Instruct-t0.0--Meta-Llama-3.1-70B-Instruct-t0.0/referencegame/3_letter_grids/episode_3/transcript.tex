@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Se le proporcionan tres cuadrículas, cada una de las cuales tiene un tamaño de 5 por 5.\\ \tt Las cuadrículas tienen celdas vacías marcadas con "▢" y celdas llenas marcadas con "X".\\ \tt Su tarea es generar una expresión de referencia que describa mejor la cuadrícula objetivo y al mismo tiempo la distinga de las otras dos cuadrículas distractoras.\\ \tt La primera cuadrícula es la cuadrícula objetivo y las dos cuadrículas siguientes son los distractores.\\ \tt \\ \tt Cuadrícula objetivo:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt \\ \tt Cuadrícula de distractores 1:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Cuadrícula distractora 2:\\ \tt \\ \tt X ▢ ▢ ▢ X\\ \tt X ▢ ▢ X ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ X\\ \tt \\ \tt Instrucción: Describe la cuadrícula objetivo.\\ \tt Genere la expresión de referencia que comience con la etiqueta "Expresión: " para la cuadrícula de destino determinada. Omita cualquier otro texto. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Expresión: Cuadrícula con una fila superior y dos filas inferiores completas de X, y una columna izquierda completa de X, con el resto de las celdas vacías excepto la tercera fila que tiene tres X en la izquierda. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Expresión: Cuadrícula con una fila superior y dos filas inferiores completas de X, y una columna izquierda completa de X, con el resto de las celdas vacías excepto la tercera fila que tiene tres X en la izquierda. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Se le proporcionan tres cuadrículas, cada una de las cuales tiene un tamaño de 5 por 5.\\ \tt Las cuadrículas tienen celdas vacías marcadas con "▢" y celdas llenas marcadas con "X".\\ \tt También se le proporciona una expresión de referencia que describe una de las cuadrículas dadas.\\ \tt Su tarea es seleccionar la cuadrícula que coincida con la expresión de referencia dada.\\ \tt Genere solo el número (en texto) de la cuadrícula que coincida con la expresión dada seleccionando primero, segundo o tercero.\\ \tt \\ \tt Primero:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt \\ \tt Segundo:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Tercero:\\ \tt \\ \tt X ▢ ▢ ▢ X\\ \tt X ▢ ▢ X ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ X\\ \tt \\ \tt Expresión: Cuadrícula con una fila superior y dos filas inferiores completas de X, y una columna izquierda completa de X, con el resto de las celdas vacías excepto la tercera fila que tiene tres X en la izquierda.\\ \tt Pregunta: ¿A qué cuadrícula se refiere la expresión?\\ \tt Comience con la etiqueta "Respuesta:", seguida de su selección. Omita cualquier otro texto.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Respuesta: Segundo 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Respuesta: Segundo 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

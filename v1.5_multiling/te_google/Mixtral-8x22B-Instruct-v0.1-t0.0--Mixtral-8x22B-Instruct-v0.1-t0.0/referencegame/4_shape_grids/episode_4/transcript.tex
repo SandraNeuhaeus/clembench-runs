@@ -1,0 +1,60 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 మీకు మూడు గ్రిడ్‌లు ఇవ్వబడ్డాయి, వాటిలో ప్రతి ఒక్కటి 5 బై 5 పరిమాణంలో ఉంటాయి.\\ \tt గ్రిడ్‌లు "▢"తో గుర్తించబడిన ఖాళీ సెల్‌లను కలిగి ఉంటాయి మరియు "X"తో నిండిన సెల్‌లను కలిగి ఉంటాయి.\\ \tt లక్ష్య గ్రిడ్‌ని రెండు ఇతర డిస్ట్రాక్టర్ గ్రిడ్‌ల నుండి వేరు చేస్తూ దానిని ఉత్తమంగా వివరించే రెఫరింగ్ వ్యక్తీకరణను రూపొందించడం మీ పని.\\ \tt మొదటి గ్రిడ్ లక్ష్య గ్రిడ్, మరియు క్రింది రెండు గ్రిడ్‌లు డిస్ట్రాక్టర్‌లు.\\ \tt \\ \tt టార్గెట్ గ్రిడ్:\\ \tt \\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt X X X X X\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt డిస్ట్రాక్టర్ గ్రిడ్ 1:\\ \tt \\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ X X X ▢\\ \tt X X X X X\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt డిస్ట్రాక్టర్ గ్రిడ్ 2:\\ \tt \\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ X X ▢ ▢\\ \tt X X X X X\\ \tt ▢ X X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt సూచన: లక్ష్య గ్రిడ్‌ను వివరించండి.\\ \tt ఇచ్చిన లక్ష్య గ్రిడ్ కోసం "వ్యక్తీకరణ:" ట్యాగ్‌తో ప్రారంభించి సూచించే వ్యక్తీకరణను రూపొందించండి. ఏదైనా ఇతర వచనాన్ని వదిలివేయండి. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Identification:\\ \tt \\ \tt The target grid is distinct from the two distractor grids due to the pattern of "X" marks in the second column of the grid.\\ \tt \\ \tt Identification for the target grid:\\ \tt \\ \tt Starting with the tag "Identification: ", describe the target grid as follows:\\ \tt \\ \tt - The grid is a 5x5 matrix.\\ \tt - The grid has empty cells marked with "▢" and filled cells marked with "X".\\ \tt - 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid generated expression 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

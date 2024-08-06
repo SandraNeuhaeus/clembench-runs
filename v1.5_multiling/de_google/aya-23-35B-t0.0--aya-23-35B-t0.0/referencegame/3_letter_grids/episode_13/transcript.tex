@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Ihnen werden drei Gitter gegeben, von denen jedes 5 x 5 groß ist.\\ \tt Gitter haben leere Zellen, die mit „▢“ markiert sind, und gefüllte Zellen, die mit „X“ markiert sind.\\ \tt Ihre Aufgabe ist es, einen referenzierenden Ausdruck zu generieren, der das Zielgitter am besten beschreibt und es gleichzeitig von den beiden anderen Ablenkergittern unterscheidet.\\ \tt Das erste Gitter ist das Zielgitter und die folgenden beiden Gitter sind die Ablenker.\\ \tt \\ \tt Zielgitter:\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Ablenkergitter 1:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Ablenkergitter 2:\\ \tt \\ \tt X ▢ ▢ ▢ X\\ \tt X ▢ ▢ X ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ X\\ \tt \\ \tt Anweisung: Beschreiben Sie das Zielgitter.\\ \tt Generieren Sie den referenzierenden Ausdruck, beginnend mit dem Tag „Ausdruck:“ ​​für das gegebene Zielgitter. Lassen Sie jeden anderen Text weg. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Ausdruck: Das Zielgitter weist ein Muster auf, bei dem die äußeren Zellen mit „X“ gefüllt sind, während die inneren Zellen eine Mischung aus „X“ und „▢“ aufweisen. Es unterscheidet sich von den Ablenkergittern durch die Positionierung der „X“ und die Aufteilung zwischen gefüllten und leeren Zellen. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Ausdruck: Das Zielgitter weist ein Muster auf, bei dem die äußeren Zellen mit „X“ gefüllt sind, während die inneren Zellen eine Mischung aus „X“ und „▢“ aufweisen. Es unterscheidet sich von den Ablenkergittern durch die Positionierung der „X“ und die Aufteilung zwischen gefüllten und leeren Zellen. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Ihnen werden drei Gitter gegeben, von denen jedes 5 x 5 groß ist.\\ \tt Gitter haben leere Zellen, die mit „▢“ markiert sind, und gefüllte Zellen, die mit „X“ markiert sind.\\ \tt Sie erhalten außerdem einen Verweisausdruck, der eines der gegebenen Gitter beschreibt.\\ \tt Ihre Aufgabe ist es, das Gitter auszuwählen, das dem gegebenen Verweisausdruck entspricht.\\ \tt Generieren Sie nur die Nummer (im Text) des Gitters, das dem gegebenen Ausdruck entspricht, indem Sie „Erstes“, „Zweites“ oder „Drittes“ auswählen.\\ \tt \\ \tt Erstes:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Zweites:\\ \tt \\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Drittes:\\ \tt \\ \tt X ▢ ▢ ▢ X\\ \tt X ▢ ▢ X ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ X\\ \tt \\ \tt Ausdruck: Das Zielgitter weist ein Muster auf, bei dem die äußeren Zellen mit „X“ gefüllt sind, während die inneren Zellen eine Mischung aus „X“ und „▢“ aufweisen. Es unterscheidet sich von den Ablenkergittern durch die Positionierung der „X“ und die Aufteilung zwischen gefüllten und leeren Zellen.\\ \tt Frage: Auf welches Gitter bezieht sich der Ausdruck?\\ \tt Beginnen Sie mit dem Tag „Antwort:“, gefolgt von Ihrer Auswahl. Lassen Sie jeden anderen Text weg.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Antwort: Erstes 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Antwort: Erstes 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

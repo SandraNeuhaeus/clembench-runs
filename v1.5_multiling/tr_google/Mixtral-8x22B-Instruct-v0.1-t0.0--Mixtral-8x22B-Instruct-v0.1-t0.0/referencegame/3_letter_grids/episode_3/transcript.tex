@@ -1,0 +1,60 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Size her biri 5'e 5 boyutunda olan üç ızgara veriliyor.\\ \tt Izgaralarda "▢" ile işaretlenmiş boş hücreler ve "X" ile işaretlenmiş dolu hücreler bulunur.\\ \tt Göreviniz, hedef ızgarayı en iyi şekilde tanımlayan ve onu diğer iki çeldirici ızgaradan ayıran, atıfta bulunan bir ifade oluşturmaktır.\\ \tt İlk ızgara hedef ızgaradır ve sonraki iki ızgara çeldiricilerdir.\\ \tt \\ \tt Hedef ızgarası:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt \\ \tt Distraktör ızgarası 1:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Distraktör ızgarası 2:\\ \tt \\ \tt X ▢ ▢ ▢ X\\ \tt X ▢ ▢ X ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ X\\ \tt \\ \tt Talimat: Hedef ızgarayı tanımlayın.\\ \tt Verilen hedef ızgara için "İfade: " etiketiyle başlayan başvuran ifadeyi oluşturun. Başka herhangi bir metni atlayın. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Ifade: The target grid has a solid line of "X"s at the top, followed by a column of four empty cells, then a column with two "X"s and three empty cells, and the rest of the grid is filled with empty cells except for the first cell in each row which is filled with an "X".\\ \tt \\ \tt Translation: Hedef kılavuz, üstünde katı bir "X" satırı, ardı 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid generated expression 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

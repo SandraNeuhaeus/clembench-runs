@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Тебе даны три сетки, каждая размером 5 на 5.\\ \tt В сетках есть пустые ячейки "▢" и ячейки заполненные символом "X".\\ \tt Твоя задача сгенерировать выражение, которое наилучшим образом описывает целевую сетку и при этом отличает ее от двух других отвлекающих сеток.\\ \tt Первая решетка является целевой решеткой, а две последующие решетки - отвлекающие.\\ \tt \\ \tt Целевая решетка:\\ \tt \\ \tt X X X X X\\ \tt ▢ ▢ ▢ X ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Отвлекающая решетка 1:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Отвлекающая решетка 2:\\ \tt \\ \tt X X X X X\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt Инструкция: Опиши целевую решетку.\\ \tt Сгенерируй описание целевой решетки начиная ответ тегом "Выражение: ". Воздержись от использования другого текста. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Выражение: Сетка с одним столбцом и одной строкой, заполненными символами "X". 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Выражение: Сетка с одним столбцом и одной строкой, заполненными символами "X". 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Тебе даны три сетки, каждая размером 5 на 5.\\ \tt В сетках есть пустые ячейки "▢" и ячейки заполненные символом "X".\\ \tt Еще ты получишь выражение, которое описывает одну из данных решеток.\\ \tt Твоя задача выбрать решетку, которая подходит под описание.\\ \tt Сгенерируй только номер (в формате текста) решетки, которая подходит под описание используя слова: первая, вторая, или третья.\\ \tt \\ \tt Первая:\\ \tt \\ \tt X X X X X\\ \tt ▢ ▢ ▢ X ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Вторая:\\ \tt \\ \tt X X X X X\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X ▢ ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Третья:\\ \tt \\ \tt X X X X X\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt \\ \tt Выражение: Сетка с одним столбцом и одной строкой, заполненными символами "X".\\ \tt Вопрос: К какой решетке относится выражение?\\ \tt Начни ответ с тега "Ответ: ", затем напиши ответ. Воздержись от использования другого текста.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Ответ: Вторая 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Ответ: Вторая 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

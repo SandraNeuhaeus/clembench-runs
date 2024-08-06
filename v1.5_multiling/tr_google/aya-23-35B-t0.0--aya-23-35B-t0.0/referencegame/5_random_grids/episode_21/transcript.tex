@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Size her biri 5'e 5 boyutunda olan üç ızgara veriliyor.\\ \tt Izgaralarda "▢" ile işaretlenmiş boş hücreler ve "X" ile işaretlenmiş dolu hücreler bulunur.\\ \tt Göreviniz, hedef ızgarayı en iyi şekilde tanımlayan ve onu diğer iki çeldirici ızgaradan ayıran, atıfta bulunan bir ifade oluşturmaktır.\\ \tt İlk ızgara hedef ızgaradır ve sonraki iki ızgara çeldiricilerdir.\\ \tt \\ \tt Hedef ızgarası:\\ \tt \\ \tt X ▢ X ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt X ▢ X ▢ X\\ \tt ▢ ▢ X X ▢\\ \tt ▢ ▢ X X ▢\\ \tt \\ \tt Distraktör ızgarası 1:\\ \tt \\ \tt X X X X ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X ▢ X ▢ X\\ \tt ▢ ▢ ▢ ▢ X\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Distraktör ızgarası 2:\\ \tt \\ \tt X X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt ▢ X X ▢ ▢\\ \tt \\ \tt Talimat: Hedef ızgarayı tanımlayın.\\ \tt Verilen hedef ızgara için "İfade: " etiketiyle başlayan başvuran ifadeyi oluşturun. Başka herhangi bir metni atlayın. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 İfade: Her satırda ve sütunda tam üç "X" içeren bir ızgara. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 İfade: Her satırda ve sütunda tam üç "X" içeren bir ızgara. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Size her biri 5'e 5 boyutunda olan üç ızgara veriliyor.\\ \tt Izgaralarda "▢" ile işaretlenmiş boş hücreler ve "X" ile işaretlenmiş dolu hücreler bulunur.\\ \tt Ayrıca size verilen ızgaralardan birini tanımlayan bir referans ifadesi de verilir.\\ \tt Göreviniz verilen atıfta bulunan ifadeyle eşleşen ızgarayı seçmektir.\\ \tt Birinci, ikinci veya üçüncü seçerek yalnızca verilen ifadeyle eşleşen ızgara sayısını (metin olarak) oluşturun.\\ \tt \\ \tt Birinci:\\ \tt \\ \tt X ▢ X ▢ ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt X ▢ X ▢ X\\ \tt ▢ ▢ X X ▢\\ \tt ▢ ▢ X X ▢\\ \tt \\ \tt Ikinci:\\ \tt \\ \tt X X X X ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X ▢ X ▢ X\\ \tt ▢ ▢ ▢ ▢ X\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Üçüncü:\\ \tt \\ \tt X X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt ▢ X X ▢ ▢\\ \tt \\ \tt İfade: Her satırda ve sütunda tam üç "X" içeren bir ızgara.\\ \tt Soru: İfade hangi ızgaraya atıfta bulunuyor?\\ \tt "Cevap: " etiketiyle başlayın ve ardından seçiminizi yapın. Başka herhangi bir metni atlayın.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Cevap: Üçüncü 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Cevap: Üçüncü 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

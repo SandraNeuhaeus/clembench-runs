@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Вам даны три сетки, каждая из которых имеет размер 5 на 5.\\ \tt В сетках есть пустые ячейки, отмеченные знаком «▢», и заполненные ячейки, отмеченные знаком «X».\\ \tt Ваша задача — создать ссылающееся выражение, которое лучше всего описывает целевую сетку, отличая ее от двух других сеток-отвлекателей.\\ \tt Первая сетка — это целевая сетка, а следующие две сетки — дистракторы.\\ \tt \\ \tt Целевая сетка:\\ \tt \\ \tt ▢ X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt X X ▢ ▢ X\\ \tt \\ \tt Отвлекающая сетка 1:\\ \tt \\ \tt ▢ X X X ▢\\ \tt ▢ ▢ ▢ X ▢\\ \tt X ▢ X X ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Отвлекающая сетка 2:\\ \tt \\ \tt X X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt ▢ X X ▢ ▢\\ \tt \\ \tt Инструкция: Опишите целевую сетку.\\ \tt Создайте ссылающееся выражение, начинающееся с тега «Выражение:» для данной целевой сетки. Опустите любой другой текст. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Выражение: Сетка с двумя X в правом нижнем углу и двумя X в левом нижнем углу, а также двумя X в левом верхнем углу и двумя X в правом верхнем углу, но без X в средней строке и среднем столбце. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Выражение: Сетка с двумя X в правом нижнем углу и двумя X в левом нижнем углу, а также двумя X в левом верхнем углу и двумя X в правом верхнем углу, но без X в средней строке и среднем столбце. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Вам даны три сетки, каждая из которых имеет размер 5 на 5.\\ \tt В сетках есть пустые ячейки, отмеченные знаком «▢», и заполненные ячейки, отмеченные знаком «X».\\ \tt Вам также дано ссылающееся выражение, описывающее одну из заданных сеток.\\ \tt Ваша задача — выбрать сетку, соответствующую данному ссылающемуся выражению.\\ \tt Сгенерируйте только тот номер (в тексте) сетки, который соответствует данному выражению, выбрав первый, второй или третий.\\ \tt \\ \tt Первый:\\ \tt \\ \tt ▢ X X X ▢\\ \tt ▢ ▢ ▢ X ▢\\ \tt X ▢ X X ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Второй:\\ \tt \\ \tt ▢ X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt X X ▢ ▢ X\\ \tt \\ \tt Третий:\\ \tt \\ \tt X X ▢ ▢ ▢\\ \tt ▢ X ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt ▢ X X ▢ ▢\\ \tt \\ \tt Выражение: Сетка с двумя X в правом нижнем углу и двумя X в левом нижнем углу, а также двумя X в левом верхнем углу и двумя X в правом верхнем углу, но без X в средней строке и среднем столбце.\\ \tt Вопрос: К какой сетке относится это выражение?\\ \tt Начните с тега «Ответ:», за которым следует ваш выбор. Опустите любой другой текст.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Ответ: Третий. 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid generated choice 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

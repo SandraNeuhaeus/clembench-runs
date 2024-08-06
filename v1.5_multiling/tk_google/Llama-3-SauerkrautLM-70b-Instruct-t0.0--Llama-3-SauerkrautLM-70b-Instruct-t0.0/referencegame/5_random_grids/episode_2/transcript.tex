@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Size üç sany gözenek berilýär, olaryň hersiniň ululygy 5-den 5-e çenli.\\ \tt Torlarda "▢" bilen bellenen boş öýjükler we "X" bilen bellenen öýjükler bar.\\ \tt Siziň wezipäňiz, beýleki iki daşlaşdyryjy gözenekden tapawutlandyryp, maksat toruny has gowy suratlandyrýan salgylanma aňlatmasyny döretmekdir.\\ \tt Birinji gözenek maksatly gözenekdir we aşakdaky iki gözenek ünsüni bölýär.\\ \tt \\ \tt Maksatlaýyn set:\\ \tt \\ \tt ▢ X X X ▢\\ \tt ▢ ▢ ▢ X ▢\\ \tt X ▢ X X ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Distraktor paneli 1:\\ \tt \\ \tt X X X X ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X ▢ X ▢ X\\ \tt ▢ ▢ ▢ ▢ X\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Distraktor paneli 2:\\ \tt \\ \tt ▢ X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt X X ▢ ▢ X\\ \tt \\ \tt Görkezme: Maksatlaýyn seti suratlandyryň.\\ \tt Berlen maksat paneli üçin "Aňlatmasyny:" belliginden başlap, salgylanma aňlatmasyny dörediň. Başga teksti goýuň. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Aňlatmasyny: Maksatlaýyn setinde, her satyňda bir ýa-da iki boş öýjük (▢) bar, we olar X bilen bellenen öýjüklerden aýrylyp durýar. Boş öýjükler satyň ortasynda ýa-da köşesinde ýerleşýär. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Aňlatmasyny: Maksatlaýyn setinde, her satyňda bir ýa-da iki boş öýjük (▢) bar, we olar X bilen bellenen öýjüklerden aýrylyp durýar. Boş öýjükler satyň ortasynda ýa-da köşesinde ýerleşýär. 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Size üç sany gözenek berilýär, olaryň hersiniň ululygy 5-den 5-e çenli.\\ \tt Torlarda "▢" bilen bellenen boş öýjükler we "X" bilen bellenen öýjükler bar.\\ \tt Şeýle hem size berlen gözenekleriň birini suratlandyrýan salgylanma berilýär.\\ \tt Siziň wezipäňiz, berlen salgylanma gabat gelýän seti saýlamakdyr.\\ \tt Diňe birinjisi, ikinjisi ýa-da üçünjisi birini saýlap, berlen aňlatma gabat gelýän gözenegiň sanyny (tekstde) dörediň.\\ \tt \\ \tt Birinjisi:\\ \tt \\ \tt ▢ X X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt X ▢ ▢ ▢ ▢\\ \tt X X ▢ ▢ ▢\\ \tt X X ▢ ▢ X\\ \tt \\ \tt Ikinjisi:\\ \tt \\ \tt X X X X ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X ▢ X ▢ X\\ \tt ▢ ▢ ▢ ▢ X\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Üçünjisi:\\ \tt \\ \tt ▢ X X X ▢\\ \tt ▢ ▢ ▢ X ▢\\ \tt X ▢ X X ▢\\ \tt ▢ X ▢ ▢ ▢\\ \tt ▢ ▢ ▢ X X\\ \tt \\ \tt Aňlatmasyny: Maksatlaýyn setinde, her satyňda bir ýa-da iki boş öýjük (▢) bar, we olar X bilen bellenen öýjüklerden aýrylyp durýar. Boş öýjükler satyň ortasynda ýa-da köşesinde ýerleşýär.\\ \tt Sorag: Aňlatma haýsy seti aňladýar?\\ \tt "Jogap:" belligi bilen başlaň, soň bolsa saýlamagyňyzdan soň. Başga teksti goýuň.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Jogap: Birinjisi 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Jogap: Birinjisi 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

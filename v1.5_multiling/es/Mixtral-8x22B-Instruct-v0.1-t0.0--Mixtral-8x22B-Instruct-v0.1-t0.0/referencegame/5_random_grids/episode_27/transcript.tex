@@ -1,0 +1,96 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Se te proporcionan tres cuadrículas, cada una de las cuales tiene un tamaño de 5 por 5.\\ \tt Las cuadrículas tienen celdas vacías marcadas con "▢" y celdas llenas marcadas con "X".\\ \tt Tu tarea es generar una expresión de referencia que describa la cuadrícula objetivo de la mejor manera y al mismo tiempo que la distinga de las otras dos cuadrículas distractoras.\\ \tt La primera cuadrícula es la cuadrícula objetivo y las dos cuadrículas siguientes son las distractoras.\\ \tt \\ \tt Cuadrícula objetivo:\\ \tt \\ \tt ▢ ▢ ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X X ▢ ▢ X\\ \tt \\ \tt Cuadrícula distractora 1:\\ \tt \\ \tt X X ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ X ▢ X ▢\\ \tt \\ \tt Cuadrícula distractora 2:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ X ▢ X ▢\\ \tt X X X ▢ X\\ \tt X X X ▢ X\\ \tt \\ \tt Comando: Describe la cuadrícula objetivo.\\ \tt Genera la expresión de referencia que comience con la etiqueta "Expresión: " para la cuadrícula determinada. Omite cualquier otro texto. 
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 Expresión: La cuadrícula objetivo tiene la primera fila con cuatro celdas vacías seguidas de una celda llena. La segunda fila tiene una celda llena, seguida de una celda vacía, una celda llena, dos celdas vacías y otra celda llena. La tercera fila tiene dos celdas vacías, seguidas de una celda llena, una cel 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Expresión: La cuadrícula objetivo tiene la primera fila con cuatro celdas vacías seguidas de una celda llena. La segunda fila tiene una celda llena, seguida de una celda vacía, una celda llena, dos celdas vacías y otra celda llena. La tercera fila tiene dos celdas vacías, seguidas de una celda llena, una cel 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\rangle$B]}  
+	 Se te proporcionan tres cuadrículas, cada una de las cuales tiene un tamaño de 5 por 5.\\ \tt Las cuadrículas tienen celdas vacías marcadas con "▢" y celdas llenas marcadas con "X".\\ \tt También se te proporciona una expresión de referencia que describe una de las cuadrículas dadas.\\ \tt Tu tarea es seleccionar la cuadrícula que coincida con la expresión de referencia dada.\\ \tt Genera solo el número ordinal (en texto) de la cuadrícula que coincida con la expresión dada seleccionando primera, segunda o tercera.\\ \tt \\ \tt Primera:\\ \tt \\ \tt ▢ ▢ ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt ▢ ▢ X ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X X ▢ ▢ X\\ \tt \\ \tt Segunda:\\ \tt \\ \tt X X ▢ ▢ X\\ \tt X ▢ X ▢ ▢\\ \tt X ▢ ▢ X ▢\\ \tt ▢ ▢ X ▢ ▢\\ \tt ▢ X ▢ X ▢\\ \tt \\ \tt Tercera:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ X ▢ X ▢\\ \tt X X X ▢ X\\ \tt X X X ▢ X\\ \tt \\ \tt Expresión: La cuadrícula objetivo tiene la primera fila con cuatro celdas vacías seguidas de una celda llena. La segunda fila tiene una celda llena, seguida de una celda vacía, una celda llena, dos celdas vacías y otra celda llena. La tercera fila tiene dos celdas vacías, seguidas de una celda llena, una cel\\ \tt Pregunta: ¿A qué cuadrícula se refiere la expresión?\\ \tt Comienza con la etiqueta "Respuesta:", seguida de tu selección. Omite cualquier otro texto.\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{1,0.85,0.72}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$\langle$B]}  
+	 Respuesta: primera 
+	  } 
+	   } 
+	   } 
+	  \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Respuesta: primera 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}

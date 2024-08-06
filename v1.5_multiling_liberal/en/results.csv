@@ -1,0 +1,7 @@
+,"-, clemscore","all, Average % Played","all, Average Quality Score","imagegame, % Played","imagegame, Quality Score","imagegame, Quality Score (std)"
+Llama-3-70B-Instruct-t0.0--Llama-3-70B-Instruct-t0.0,72.62,90.0,80.69,90.0,80.69,19.33
+Llama-3-SauerkrautLM-70b-Instruct-t0.0--Llama-3-SauerkrautLM-70b-Instruct-t0.0,69.77,87.5,79.74,87.5,79.74,18.06
+Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,90.82,97.5,93.15,97.5,93.15,10.38
+Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,4.2,25.0,16.8,25.0,16.8,15.86
+Qwen1.5-72B-Chat-t0.0--Qwen1.5-72B-Chat-t0.0,36.87,80.0,46.09,80.0,46.09,22.56
+aya-23-35B-t0.0--aya-23-35B-t0.0,3.02,7.5,40.33,7.5,40.33,38.63

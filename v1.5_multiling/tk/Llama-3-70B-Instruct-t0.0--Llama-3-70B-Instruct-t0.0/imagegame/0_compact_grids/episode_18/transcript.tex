@@ -1,0 +1,60 @@
+
+\documentclass{article}
+\usepackage{colortbl}
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{supertabular}
+
+\begin{document}
+
+\newcounter{utterance}
+
+\twocolumn
+
+{ \footnotesize  \setcounter{utterance}{1}
+\setlength{\tabcolsep}{0pt}
+\begin{supertabular}{c@{$\;$}|p{.15\linewidth}@{}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}p{.15\linewidth}}
+
+    \# & $\;$A & \multicolumn{4}{c}{Game Master} & $\;\:$B\\
+    \hline 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.9,0.9,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\langle$GM]}  
+	 Aşakdaky meseläni ýerine ýetireliň. Maksat, şuňa meňzeş boş gözenegi doldurmak:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt \\ \tt Aşakda doldurylan gözenek 5-den 5-e çenli we şeýle bolup biler:\\ \tt \\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ E ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt ▢ ▢ ▢ ▢ ▢\\ \tt X X X X X\\ \tt \\ \tt Bu seti maňa ädimme-ädim suratlandyrmagyňyzy isleýärin. "▢" bilen görkezilen boş öýjükleri suratlandyrmagyň zerurlygy ýok. Gözenekdäki diñe harplaryň öýjüklerini suratlandyryň. Soňra "Indiki buýrugyñyz näme?" diýmegime garaşýarsyňyz, soň bolsa indiki ädimiňizi dowam etdirersiňiz. Görkezmeler berlende gözenegiň ululygyny göz öňünde tutuň. Hemme zady suratlandyranyňyzda "GUTARDY" diýýärsiňiz.\\ \tt \\ \tt Aboveokardaky doldurylan gözenek üçin mysal ädimleri.\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt Buýruk: E-ni ikinji hatar üçünji sütüne goýuň\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt Buýruk: Iň soňky hatary X bilen dolduryň\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt Buýruk: GUTARDY\\ \tt \\ \tt Bolýar. Aşakdaky mysal üçin muny 5-den 5-e çenli gözenek bilen ýerine ýetirmegiňizi haýyş edýäris.\\ \tt \\ \tt U U U U U\\ \tt U U U U U\\ \tt U U U U U\\ \tt U U ▢ U U\\ \tt U ▢ ▢ ▢ U\\ \tt \\ \tt Indiki buýrugyñyz näme?\\ \tt  
+	  } 
+	   } 
+	   } 
+	 & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & \multicolumn{4}{p{0.6\linewidth}}{\cellcolor[rgb]{0.8,1,0.9}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [A$\rangle$GM]}  
+	 I understand the task!\\ \tt \\ \tt You want me to fill in the grid with letters, and you'll give me instructions on what to do next. Let's get started!\\ \tt \\ \tt Here's the initial grid:\\ \tt \\ \tt U U U U U\\ \tt U U U U U\\ \tt U U U U U\\ \tt U U ▢ U U\\ \tt U ▢ ▢ ▢ U\\ \tt \\ \tt What's the next instruction? 😊 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+    \theutterance \stepcounter{utterance}  
+
+    & & & \multicolumn{2}{p{0.3\linewidth}}{\cellcolor[rgb]{0.95,0.95,0.95}{%
+	\makecell[{{p{\linewidth}}}]{% 
+	  \tt {\tiny [GM$|$GM]}  
+	 Invalid instruction format 
+	  } 
+	   } 
+	   } 
+	 & & \\ 
+ 
+
+\end{supertabular}
+}
+
+\end{document}
