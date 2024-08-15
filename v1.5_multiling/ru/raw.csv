@@ -602,15 +602,15 @@
 600,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Generated Expression Length,231.0
 601,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Generated Expression Number of Tokens,37.0
 602,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Aborted at Player 1,0.0
-603,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Aborted at Player 2,0.0
+603,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Aborted at Player 2,1.0
 604,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Request Count,2.0
-605,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Parsed Request Count,2.0
-606,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Violated Request Count,0.0
-607,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Aborted,0.0
-608,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Success,1.0
-609,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Lose,0.0
-610,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Main Score,100.0
-611,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Request Success Ratio,1.0
+605,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Parsed Request Count,1.0
+606,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Violated Request Count,1.0
+607,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Aborted,1.0
+608,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Success,
+609,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Lose,
+610,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Main Score,
+611,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Request Success Ratio,0.5
 612,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_18,Generated Expression Length,207.0
 613,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_18,Generated Expression Number of Tokens,34.0
 614,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_18,Aborted at Player 1,0.0
@@ -1454,15 +1454,15 @@
 1452,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Generated Expression Length,215.0
 1453,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Generated Expression Number of Tokens,35.0
 1454,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Aborted at Player 1,0.0
-1455,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Aborted at Player 2,0.0
+1455,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Aborted at Player 2,1.0
 1456,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Request Count,2.0
-1457,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Parsed Request Count,2.0
-1458,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Violated Request Count,0.0
-1459,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Aborted,0.0
-1460,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Success,1.0
-1461,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Lose,0.0
-1462,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Main Score,100.0
-1463,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Request Success Ratio,1.0
+1457,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Parsed Request Count,1.0
+1458,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Violated Request Count,1.0
+1459,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Aborted,1.0
+1460,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Success,
+1461,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Lose,
+1462,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Main Score,
+1463,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Request Success Ratio,0.5
 1464,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_2,Generated Expression Length,229.0
 1465,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_2,Generated Expression Number of Tokens,40.0
 1466,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_2,Aborted at Player 1,0.0
@@ -1658,15 +1658,15 @@
 1656,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Generated Expression Length,215.0
 1657,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Generated Expression Number of Tokens,35.0
 1658,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Aborted at Player 1,0.0
-1659,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Aborted at Player 2,0.0
+1659,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Aborted at Player 2,1.0
 1660,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Request Count,2.0
-1661,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Parsed Request Count,2.0
-1662,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Violated Request Count,0.0
-1663,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Aborted,0.0
-1664,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Success,0.0
-1665,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Lose,1.0
-1666,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Main Score,0.0
-1667,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Request Success Ratio,1.0
+1661,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Parsed Request Count,1.0
+1662,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Violated Request Count,1.0
+1663,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Aborted,1.0
+1664,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Success,
+1665,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Lose,
+1666,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Main Score,
+1667,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Request Success Ratio,0.5
 1668,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_12,Generated Expression Length,225.0
 1669,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_12,Generated Expression Number of Tokens,36.0
 1670,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_12,Aborted at Player 1,0.0
@@ -5626,15 +5626,15 @@
 5624,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Generated Expression Length,171.0
 5625,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Generated Expression Number of Tokens,26.0
 5626,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Aborted at Player 1,0.0
-5627,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Aborted at Player 2,0.0
+5627,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Aborted at Player 2,1.0
 5628,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Request Count,2.0
-5629,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Parsed Request Count,2.0
-5630,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Violated Request Count,0.0
-5631,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Aborted,0.0
-5632,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Success,1.0
-5633,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Lose,0.0
-5634,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Main Score,100.0
-5635,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Request Success Ratio,1.0
+5629,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Parsed Request Count,1.0
+5630,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Violated Request Count,1.0
+5631,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Aborted,1.0
+5632,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Success,
+5633,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Lose,
+5634,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Main Score,
+5635,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Request Success Ratio,0.5
 5636,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_22,Generated Expression Length,108.0
 5637,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_22,Generated Expression Number of Tokens,18.0
 5638,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_22,Aborted at Player 1,0.0
@@ -5794,15 +5794,15 @@
 5792,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Generated Expression Length,171.0
 5793,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Generated Expression Number of Tokens,26.0
 5794,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Aborted at Player 1,0.0
-5795,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Aborted at Player 2,0.0
+5795,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Aborted at Player 2,1.0
 5796,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Request Count,2.0
-5797,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Parsed Request Count,2.0
-5798,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Violated Request Count,0.0
-5799,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Aborted,0.0
-5800,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Success,1.0
-5801,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Lose,0.0
-5802,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Main Score,100.0
-5803,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Request Success Ratio,1.0
+5797,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Parsed Request Count,1.0
+5798,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Violated Request Count,1.0
+5799,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Aborted,1.0
+5800,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Success,
+5801,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Lose,
+5802,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Main Score,
+5803,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Request Success Ratio,0.5
 5804,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_29,Generated Expression Length,188.0
 5805,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_29,Generated Expression Number of Tokens,32.0
 5806,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_29,Aborted at Player 1,0.0
@@ -6070,15 +6070,15 @@
 6068,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Generated Expression Length,113.0
 6069,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Generated Expression Number of Tokens,15.0
 6070,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Aborted at Player 1,0.0
-6071,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Aborted at Player 2,0.0
+6071,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Aborted at Player 2,1.0
 6072,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Request Count,2.0
-6073,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Parsed Request Count,2.0
-6074,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Violated Request Count,0.0
-6075,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Aborted,0.0
-6076,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Success,1.0
-6077,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Lose,0.0
-6078,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Main Score,100.0
-6079,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Request Success Ratio,1.0
+6073,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Parsed Request Count,1.0
+6074,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Violated Request Count,1.0
+6075,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Aborted,1.0
+6076,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Success,
+6077,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Lose,
+6078,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Main Score,
+6079,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Request Success Ratio,0.5
 6080,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_19,Generated Expression Length,127.0
 6081,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_19,Generated Expression Number of Tokens,20.0
 6082,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_19,Aborted at Player 1,0.0
@@ -6142,15 +6142,15 @@
 6140,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Generated Expression Length,113.0
 6141,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Generated Expression Number of Tokens,15.0
 6142,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Aborted at Player 1,0.0
-6143,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Aborted at Player 2,0.0
+6143,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Aborted at Player 2,1.0
 6144,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Request Count,2.0
-6145,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Parsed Request Count,2.0
-6146,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Violated Request Count,0.0
-6147,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Aborted,0.0
-6148,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Success,1.0
-6149,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Lose,0.0
-6150,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Main Score,100.0
-6151,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Request Success Ratio,1.0
+6145,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Parsed Request Count,1.0
+6146,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Violated Request Count,1.0
+6147,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Aborted,1.0
+6148,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Success,
+6149,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Lose,
+6150,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Main Score,
+6151,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Request Success Ratio,0.5
 6152,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_1,Generated Expression Length,80.0
 6153,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_1,Generated Expression Number of Tokens,13.0
 6154,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_1,Aborted at Player 1,0.0
@@ -6406,15 +6406,15 @@
 6404,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Generated Expression Length,127.0
 6405,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Generated Expression Number of Tokens,19.0
 6406,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Aborted at Player 1,0.0
-6407,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Aborted at Player 2,0.0
+6407,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Aborted at Player 2,1.0
 6408,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Request Count,2.0
-6409,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Parsed Request Count,2.0
-6410,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Violated Request Count,0.0
-6411,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Aborted,0.0
-6412,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Success,1.0
-6413,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Lose,0.0
-6414,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Main Score,100.0
-6415,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Request Success Ratio,1.0
+6409,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Parsed Request Count,1.0
+6410,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Violated Request Count,1.0
+6411,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Aborted,1.0
+6412,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Success,
+6413,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Lose,
+6414,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Main Score,
+6415,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Request Success Ratio,0.5
 6416,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_21,Generated Expression Length,76.0
 6417,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_21,Generated Expression Number of Tokens,12.0
 6418,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_21,Aborted at Player 1,0.0
@@ -6442,15 +6442,15 @@
 6440,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Generated Expression Length,36.0
 6441,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Generated Expression Number of Tokens,7.0
 6442,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Aborted at Player 1,0.0
-6443,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Aborted at Player 2,0.0
+6443,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Aborted at Player 2,1.0
 6444,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Request Count,2.0
-6445,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Parsed Request Count,2.0
-6446,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Violated Request Count,0.0
-6447,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Aborted,0.0
-6448,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Success,1.0
-6449,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Lose,0.0
-6450,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Main Score,100.0
-6451,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Request Success Ratio,1.0
+6445,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Parsed Request Count,1.0
+6446,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Violated Request Count,1.0
+6447,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Aborted,1.0
+6448,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Success,
+6449,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Lose,
+6450,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Main Score,
+6451,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Request Success Ratio,0.5
 6452,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_24,Generated Expression Length,55.0
 6453,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_24,Generated Expression Number of Tokens,9.0
 6454,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_24,Aborted at Player 1,0.0
@@ -6562,15 +6562,15 @@
 6560,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Generated Expression Length,43.0
 6561,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Generated Expression Number of Tokens,8.0
 6562,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Aborted at Player 1,0.0
-6563,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Aborted at Player 2,0.0
+6563,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Aborted at Player 2,1.0
 6564,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Request Count,2.0
-6565,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Parsed Request Count,2.0
-6566,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Violated Request Count,0.0
-6567,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Aborted,0.0
-6568,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Success,1.0
-6569,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Lose,0.0
-6570,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Main Score,100.0
-6571,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Request Success Ratio,1.0
+6565,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Parsed Request Count,1.0
+6566,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Violated Request Count,1.0
+6567,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Aborted,1.0
+6568,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Success,
+6569,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Lose,
+6570,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Main Score,
+6571,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Request Success Ratio,0.5
 6572,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_18,Generated Expression Length,36.0
 6573,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_18,Generated Expression Number of Tokens,7.0
 6574,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_18,Aborted at Player 1,0.0
@@ -6682,27 +6682,27 @@
 6680,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Generated Expression Length,110.0
 6681,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Generated Expression Number of Tokens,21.0
 6682,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Aborted at Player 1,0.0
-6683,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Aborted at Player 2,0.0
+6683,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Aborted at Player 2,1.0
 6684,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Request Count,2.0
-6685,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Parsed Request Count,2.0
-6686,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Violated Request Count,0.0
-6687,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Aborted,0.0
-6688,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Success,1.0
-6689,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Lose,0.0
-6690,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Main Score,100.0
-6691,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Request Success Ratio,1.0
+6685,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Parsed Request Count,1.0
+6686,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Violated Request Count,1.0
+6687,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Aborted,1.0
+6688,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Success,
+6689,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Lose,
+6690,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Main Score,
+6691,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Request Success Ratio,0.5
 6692,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Generated Expression Length,230.0
 6693,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Generated Expression Number of Tokens,37.0
 6694,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Aborted at Player 1,0.0
-6695,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Aborted at Player 2,0.0
+6695,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Aborted at Player 2,1.0
 6696,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Request Count,2.0
-6697,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Parsed Request Count,2.0
-6698,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Violated Request Count,0.0
-6699,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Aborted,0.0
-6700,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Success,1.0
-6701,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Lose,0.0
-6702,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Main Score,100.0
-6703,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Request Success Ratio,1.0
+6697,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Parsed Request Count,1.0
+6698,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Violated Request Count,1.0
+6699,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Aborted,1.0
+6700,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Success,
+6701,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Lose,
+6702,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Main Score,
+6703,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Request Success Ratio,0.5
 6704,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_2,Generated Expression Length,96.0
 6705,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_2,Generated Expression Number of Tokens,16.0
 6706,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_2,Aborted at Player 1,0.0
@@ -6742,15 +6742,15 @@
 6740,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Generated Expression Length,110.0
 6741,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Generated Expression Number of Tokens,21.0
 6742,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Aborted at Player 1,0.0
-6743,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Aborted at Player 2,0.0
+6743,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Aborted at Player 2,1.0
 6744,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Request Count,2.0
-6745,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Parsed Request Count,2.0
-6746,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Violated Request Count,0.0
-6747,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Aborted,0.0
-6748,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Success,0.0
-6749,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Lose,1.0
-6750,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Main Score,0.0
-6751,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Request Success Ratio,1.0
+6745,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Parsed Request Count,1.0
+6746,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Violated Request Count,1.0
+6747,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Aborted,1.0
+6748,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Success,
+6749,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Lose,
+6750,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Main Score,
+6751,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Request Success Ratio,0.5
 6752,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_7,Generated Expression Length,103.0
 6753,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_7,Generated Expression Number of Tokens,19.0
 6754,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_7,Aborted at Player 1,0.0
@@ -7042,15 +7042,15 @@
 7040,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Generated Expression Length,64.0
 7041,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Generated Expression Number of Tokens,14.0
 7042,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Aborted at Player 1,0.0
-7043,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Aborted at Player 2,0.0
+7043,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Aborted at Player 2,1.0
 7044,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Request Count,2.0
-7045,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Parsed Request Count,2.0
-7046,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Violated Request Count,0.0
-7047,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Aborted,0.0
-7048,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Success,1.0
-7049,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Lose,0.0
-7050,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Main Score,100.0
-7051,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Request Success Ratio,1.0
+7045,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Parsed Request Count,1.0
+7046,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Violated Request Count,1.0
+7047,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Aborted,1.0
+7048,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Success,
+7049,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Lose,
+7050,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Main Score,
+7051,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Request Success Ratio,0.5
 7052,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_28,Generated Expression Length,123.0
 7053,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_28,Generated Expression Number of Tokens,19.0
 7054,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_28,Aborted at Player 1,0.0
@@ -7282,15 +7282,15 @@
 7280,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Generated Expression Length,169.0
 7281,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Generated Expression Number of Tokens,32.0
 7282,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Aborted at Player 1,0.0
-7283,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Aborted at Player 2,0.0
+7283,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Aborted at Player 2,1.0
 7284,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Request Count,2.0
-7285,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Parsed Request Count,2.0
-7286,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Violated Request Count,0.0
-7287,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Aborted,0.0
-7288,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Success,1.0
-7289,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Lose,0.0
-7290,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Main Score,100.0
-7291,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Request Success Ratio,1.0
+7285,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Parsed Request Count,1.0
+7286,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Violated Request Count,1.0
+7287,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Aborted,1.0
+7288,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Success,
+7289,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Lose,
+7290,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Main Score,
+7291,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Request Success Ratio,0.5
 7292,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_18,Generated Expression Length,142.0
 7293,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_18,Generated Expression Number of Tokens,24.0
 7294,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_18,Aborted at Player 1,0.0
@@ -7474,15 +7474,15 @@
 7472,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Generated Expression Length,51.0
 7473,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Generated Expression Number of Tokens,8.0
 7474,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Aborted at Player 1,0.0
-7475,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Aborted at Player 2,0.0
+7475,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Aborted at Player 2,1.0
 7476,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Request Count,2.0
-7477,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Parsed Request Count,2.0
-7478,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Violated Request Count,0.0
-7479,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Aborted,0.0
-7480,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Success,1.0
-7481,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Lose,0.0
-7482,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Main Score,100.0
-7483,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Request Success Ratio,1.0
+7477,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Parsed Request Count,1.0
+7478,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Violated Request Count,1.0
+7479,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Aborted,1.0
+7480,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Success,
+7481,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Lose,
+7482,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Main Score,
+7483,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Request Success Ratio,0.5
 7484,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_10,Generated Expression Length,95.0
 7485,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_10,Generated Expression Number of Tokens,16.0
 7486,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_10,Aborted at Player 1,0.0
@@ -7546,15 +7546,15 @@
 7544,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Generated Expression Length,51.0
 7545,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Generated Expression Number of Tokens,8.0
 7546,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Aborted at Player 1,0.0
-7547,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Aborted at Player 2,0.0
+7547,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Aborted at Player 2,1.0
 7548,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Request Count,2.0
-7549,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Parsed Request Count,2.0
-7550,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Violated Request Count,0.0
-7551,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Aborted,0.0
-7552,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Success,1.0
-7553,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Lose,0.0
-7554,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Main Score,100.0
-7555,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Request Success Ratio,1.0
+7549,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Parsed Request Count,1.0
+7550,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Violated Request Count,1.0
+7551,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Aborted,1.0
+7552,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Success,
+7553,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Lose,
+7554,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Main Score,
+7555,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Request Success Ratio,0.5
 7556,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_15,Generated Expression Length,108.0
 7557,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_15,Generated Expression Number of Tokens,19.0
 7558,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_15,Aborted at Player 1,0.0
@@ -10310,15 +10310,15 @@
 10308,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Generated Expression Length,191.0
 10309,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Generated Expression Number of Tokens,29.0
 10310,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Aborted at Player 1,0.0
-10311,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Aborted at Player 2,0.0
+10311,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Aborted at Player 2,1.0
 10312,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Request Count,2.0
-10313,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Parsed Request Count,2.0
-10314,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Violated Request Count,0.0
-10315,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Aborted,0.0
-10316,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Success,0.0
-10317,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Lose,1.0
-10318,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Main Score,0.0
-10319,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Request Success Ratio,1.0
+10313,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Parsed Request Count,1.0
+10314,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Violated Request Count,1.0
+10315,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Aborted,1.0
+10316,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Success,
+10317,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Lose,
+10318,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Main Score,
+10319,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Request Success Ratio,0.5
 10320,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_19,Generated Expression Length,116.0
 10321,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_19,Generated Expression Number of Tokens,17.0
 10322,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_19,Aborted at Player 1,0.0
@@ -16849,7 +16849,7 @@
 16847,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_29,Played,1.0
 16848,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_27,Played,1.0
 16849,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_12,Played,1.0
-16850,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Played,1.0
+16850,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_13,Played,0.0
 16851,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_18,Played,1.0
 16852,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_8,Played,1.0
 16853,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,2_diagonal_grids,episode_4,Played,1.0
@@ -16920,7 +16920,7 @@
 16918,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,4_shape_grids,episode_9,Played,1.0
 16919,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,4_shape_grids,episode_23,Played,1.0
 16920,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_17,Played,1.0
-16921,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Played,1.0
+16921,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_28,Played,0.0
 16922,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_2,Played,1.0
 16923,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_22,Played,1.0
 16924,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_14,Played,1.0
@@ -16937,7 +16937,7 @@
 16935,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_26,Played,1.0
 16936,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_1,Played,1.0
 16937,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_29,Played,1.0
-16938,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Played,1.0
+16938,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_27,Played,0.0
 16939,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_12,Played,1.0
 16940,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_13,Played,1.0
 16941,referencegame,Mixtral-8x22B-Instruct-v0.1-t0.0--Mixtral-8x22B-Instruct-v0.1-t0.0,5_random_grids,episode_18,Played,1.0
@@ -17241,7 +17241,7 @@
 17239,imagegame,Qwen1.5-72B-Chat-t0.0--Qwen1.5-72B-Chat-t0.0,0_compact_grids,episode_9,Played,0.0
 17240,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_17,Played,1.0
 17241,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_28,Played,1.0
-17242,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Played,1.0
+17242,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_2,Played,0.0
 17243,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_22,Played,1.0
 17244,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_14,Played,1.0
 17245,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_16,Played,1.0
@@ -17255,7 +17255,7 @@
 17253,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_15,Played,1.0
 17254,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_3,Played,1.0
 17255,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_26,Played,1.0
-17256,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Played,1.0
+17256,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_1,Played,0.0
 17257,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_29,Played,1.0
 17258,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_27,Played,1.0
 17259,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,3_letter_grids,episode_12,Played,1.0
@@ -17278,13 +17278,13 @@
 17276,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_7,Played,1.0
 17277,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_10,Played,1.0
 17278,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_21,Played,1.0
-17279,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Played,1.0
+17279,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_25,Played,0.0
 17280,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_19,Played,1.0
 17281,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_24,Played,1.0
 17282,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_6,Played,1.0
 17283,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_15,Played,1.0
 17284,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_3,Played,1.0
-17285,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Played,1.0
+17285,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_26,Played,0.0
 17286,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_1,Played,1.0
 17287,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_29,Played,1.0
 17288,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,2_diagonal_grids,episode_27,Played,1.0
@@ -17306,10 +17306,10 @@
 17304,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_14,Played,1.0
 17305,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_16,Played,1.0
 17306,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_7,Played,1.0
-17307,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Played,1.0
+17307,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_10,Played,0.0
 17308,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_21,Played,1.0
 17309,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_25,Played,1.0
-17310,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Played,1.0
+17310,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_19,Played,0.0
 17311,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_24,Played,1.0
 17312,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_6,Played,1.0
 17313,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_15,Played,1.0
@@ -17319,7 +17319,7 @@
 17317,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_29,Played,1.0
 17318,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_27,Played,1.0
 17319,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_12,Played,1.0
-17320,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Played,1.0
+17320,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_13,Played,0.0
 17321,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_18,Played,1.0
 17322,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_8,Played,1.0
 17323,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_4,Played,1.0
@@ -17329,12 +17329,12 @@
 17327,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_20,Played,1.0
 17328,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_9,Played,1.0
 17329,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,0_line_grids_rows,episode_23,Played,1.0
-17330,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Played,1.0
-17331,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Played,1.0
+17330,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_17,Played,0.0
+17331,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_28,Played,0.0
 17332,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_2,Played,1.0
 17333,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_22,Played,1.0
 17334,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_14,Played,1.0
-17335,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Played,1.0
+17335,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_16,Played,0.0
 17336,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_7,Played,1.0
 17337,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_10,Played,1.0
 17338,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_21,Played,1.0
@@ -17359,7 +17359,7 @@
 17357,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_20,Played,1.0
 17358,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_9,Played,1.0
 17359,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,4_shape_grids,episode_23,Played,1.0
-17360,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Played,1.0
+17360,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_17,Played,0.0
 17361,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_28,Played,1.0
 17362,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_2,Played,1.0
 17363,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_22,Played,1.0
@@ -17379,7 +17379,7 @@
 17377,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_29,Played,1.0
 17378,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_27,Played,1.0
 17379,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_12,Played,1.0
-17380,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Played,1.0
+17380,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_13,Played,0.0
 17381,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_18,Played,1.0
 17382,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_8,Played,1.0
 17383,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,5_random_grids,episode_4,Played,1.0
@@ -17395,13 +17395,13 @@
 17393,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_22,Played,1.0
 17394,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_14,Played,1.0
 17395,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_16,Played,1.0
-17396,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Played,1.0
+17396,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_7,Played,0.0
 17397,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_10,Played,1.0
 17398,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_21,Played,1.0
 17399,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_25,Played,1.0
 17400,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_19,Played,1.0
 17401,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_24,Played,1.0
-17402,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Played,1.0
+17402,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_6,Played,0.0
 17403,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_15,Played,1.0
 17404,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_3,Played,1.0
 17405,referencegame,Meta-Llama-3.1-70B-Instruct-t0.0--Meta-Llama-3.1-70B-Instruct-t0.0,1_line_grids_columns,episode_26,Played,1.0
@@ -17618,7 +17618,7 @@
 17616,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_7,Played,1.0
 17617,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_10,Played,1.0
 17618,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_21,Played,1.0
-17619,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Played,1.0
+17619,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_25,Played,0.0
 17620,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_19,Played,1.0
 17621,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_24,Played,1.0
 17622,referencegame,aya-23-35B-t0.0--aya-23-35B-t0.0,1_line_grids_columns,episode_6,Played,1.0
