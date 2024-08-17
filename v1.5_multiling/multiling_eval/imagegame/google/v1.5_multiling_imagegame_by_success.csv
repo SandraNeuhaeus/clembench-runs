@@ -1,0 +1,5 @@
+,% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played)
+lang,de_google,es_google,ru_google,te_google,tk_google,tr_google
+model,,,,,,
+Llama-3-70B-Instruct,,,100.0,,,
+Mixtral-8x22B-Instruct-v0.1,,,,,,

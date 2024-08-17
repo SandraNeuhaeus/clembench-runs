@@ -1,0 +1,10 @@
+,clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success)
+lang,de,en,es,ru,te,tk,tr,Ø langs
+model,,,,,,,,
+aya-23,38.33,42.22,31.11,33.33,0.0,0.0,31.11,25.16
+llama-3,60.0,62.78,61.67,78.33,43.88,40.56,44.44,55.95
+llama-3-de,65.56,65.0,64.44,70.0,46.11,40.0,46.67,56.83
+llama-3.1,76.11,74.44,73.89,63.89,38.89,25.0,47.78,57.14
+mixtral,70.0,67.22,48.89,60.55,0.0,0.0,0.0,35.24
+qwen,37.22,37.22,43.33,43.89,24.44,0.0,23.33,29.92
+Ø models,57.87,58.15,53.89,58.33,25.55,17.59,32.22,43.37

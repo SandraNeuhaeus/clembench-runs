@@ -1,0 +1,11 @@
+,% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played)
+lang,de,de,de_google,de_google,en,en,es,es,es_google,es_google,ru,ru,ru_google,ru_google,te,te,te_google,te_google,tk,tk,tk_google,tk_google,tr,tr,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,,,,,,,,,,,,,,,
+aya-23,30.57,28.1,,15.83,40.33,,33.18,17.71,2.13,11.69,43.5,25.73,21.62,20.33,3.4,,0.0,0.0,9.67,0.0,1.38,0.0,12.75,4.46,17.78,11.17
+llama-3,92.12,71.83,85.0,,91.2,67.56,98.6,76.67,,67.0,,,100.0,,,,,77.0,,,,,88.0,59.8,50.4,59.33
+llama-3-de,89.85,67.44,89.25,63.33,88.21,69.69,87.73,68.2,87.6,71.75,79.5,75.5,,,49.67,,71.0,52.0,,,,,77.86,72.3,74.83,61.0
+llama-3.1,91.21,86.0,97.1,80.75,96.8,89.32,92.85,78.32,94.55,86.37,92.31,76.24,93.22,79.14,,,64.0,,33.4,42.75,4.83,15.33,89.67,85.58,94.5,74.67
+mixtral,23.67,23.2,34.5,25.33,13.0,25.67,34.35,19.58,25.94,25.94,40.0,22.0,54.86,33.67,,,,,,,,,26.81,37.45,22.35,27.88
+qwen,41.0,40.71,28.17,40.43,54.2,38.94,53.08,31.89,55.18,44.47,31.0,23.5,12.69,9.69,1.06,0.0,2.14,3.23,0.0,0.0,0.0,0.0,3.14,3.0,0.0,0.0
+Ø models,61.4,52.88,66.8,45.13,63.96,58.24,66.63,48.73,53.08,51.2,57.26,44.59,56.48,35.71,18.04,0.0,34.28,33.06,14.36,14.25,2.07,5.11,49.71,43.76,43.31,39.01

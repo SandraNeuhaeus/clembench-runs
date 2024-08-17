@@ -1,0 +1,10 @@
+,% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played)
+lang,de,de,de_google,de_google,en,en,es,es,es_google,es_google,ru,ru,ru_google,ru_google,te,te,te_google,te_google,tk,tk,tk_google,tk_google,tr,tr,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,,,,,,,,,,,,,,,
+Llama-3-70B-Instruct,,,,,100.0,,100.0,,,,,,100.0,,,,,,,,,,,,,
+Llama-3-SauerkrautLM-70b-Instruct,,,,,82.0,78.5,75.0,,,,61.0,,,,29.0,,,,,,,,,,,
+Meta-Llama-3.1-70B-Instruct,88.46,83.57,,,96.44,89.32,93.25,82.93,,,90.0,74.75,,,,,,,55.5,53.5,,,89.67,85.58,,
+Mixtral-8x22B-Instruct-v0.1,,,,,,,,,,,,,,,,,,,,,,,,,,
+Qwen1.5-72B-Chat,23.5,48.4,,,53.14,39.12,97.0,,,,30.2,19.38,,,2.43,,,,,,,,,,,
+aya-23-35B,,,,,,,,,,,,,,,,,,,,,,,,,,

@@ -1,0 +1,11 @@
+,% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played)
+lang,de,de,en,en,es,es,ru,ru,te,te,tk,tk,tr,tr
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,,,
+aya-23,30.57,28.1,40.33,,33.18,17.71,43.5,25.73,3.4,,9.67,0.0,12.75,4.46
+llama-3,92.12,71.83,91.2,67.56,98.6,76.67,,,,,,,88.0,59.8
+llama-3-de,89.85,67.44,88.21,69.69,87.73,68.2,79.5,75.5,49.67,,,,77.86,72.3
+llama-3.1,91.21,86.0,96.8,89.32,92.85,78.32,92.31,76.24,,,33.4,42.75,89.67,85.58
+mixtral,23.67,23.2,13.0,25.67,34.35,19.58,40.0,22.0,,,,,26.81,37.45
+qwen,41.0,40.71,54.2,38.94,53.08,31.89,31.0,23.5,1.06,0.0,0.0,0.0,3.14,3.0
+Ø models,61.4,52.88,63.96,58.24,66.63,48.73,57.26,44.59,18.04,0.0,14.36,14.25,49.71,43.76

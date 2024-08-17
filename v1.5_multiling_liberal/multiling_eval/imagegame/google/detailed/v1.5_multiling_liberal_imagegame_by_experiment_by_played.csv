@@ -1,0 +1,11 @@
+,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played
+lang,de_google,de_google,es_google,es_google,ru_google,ru_google,te_google,te_google,tk_google,tk_google,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,
+aya-23,0.0,30.0,75.0,80.0,80.0,90.0,10.0,15.0,40.0,15.0,45.0,30.0
+llama-3,5.0,0.0,0.0,5.0,5.0,0.0,0.0,5.0,0.0,0.0,25.0,15.0
+llama-3-de,20.0,15.0,50.0,40.0,0.0,0.0,5.0,5.0,0.0,0.0,30.0,25.0
+llama-3.1,100.0,100.0,100.0,95.0,45.0,35.0,20.0,0.0,30.0,45.0,10.0,15.0
+mixtral,20.0,30.0,85.0,90.0,35.0,30.0,0.0,0.0,0.0,0.0,85.0,85.0
+qwen,30.0,35.0,55.0,75.0,80.0,65.0,70.0,65.0,95.0,100.0,20.0,25.0
+Ø models,29.17,35.0,60.83,64.17,40.83,36.67,17.5,15.0,27.5,26.67,35.83,32.5

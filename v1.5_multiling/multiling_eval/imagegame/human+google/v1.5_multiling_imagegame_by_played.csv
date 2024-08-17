@@ -1,0 +1,9 @@
+,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played
+lang,de,de_google,en,es,es_google,ru,ru_google,te,te_google,tk,tk_google,tr,tr_google
+model,,,,,,,,,,,,,
+Llama-3-70B-Instruct,0.0,0.0,2.5,5.0,0.0,0.0,2.5,0.0,0.0,0.0,0.0,0.0,0.0
+Llama-3-SauerkrautLM-70b-Instruct,0.0,,12.5,5.0,,2.5,,5.0,,0.0,,0.0,
+Meta-Llama-3.1-70B-Instruct,50.0,,92.5,67.5,,65.0,,0.0,,10.0,,37.5,
+Mixtral-8x22B-Instruct-v0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Qwen1.5-72B-Chat,22.5,,75.0,2.5,,45.0,,17.5,,0.0,,0.0,
+aya-23-35B,0.0,,0.0,0.0,,0.0,,0.0,,0.0,,0.0,

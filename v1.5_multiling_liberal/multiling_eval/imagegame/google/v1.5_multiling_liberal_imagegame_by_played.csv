@@ -1,0 +1,10 @@
+,% Played,% Played,% Played,% Played,% Played,% Played,% Played
+lang,de_google,es_google,ru_google,te_google,tk_google,tr_google,Ø langs
+model,,,,,,,
+aya-23,15.0,77.5,85.0,12.5,27.5,37.5,42.5
+llama-3,2.5,2.5,2.5,2.5,0.0,20.0,5.0
+llama-3-de,17.5,45.0,0.0,5.0,0.0,27.5,15.83
+llama-3.1,100.0,97.5,40.0,10.0,37.5,12.5,49.58
+mixtral,25.0,87.5,32.5,0.0,0.0,85.0,38.33
+qwen,32.5,65.0,72.5,67.5,97.5,22.5,59.58
+Ø models,32.08,62.5,38.75,16.25,27.08,34.17,35.14

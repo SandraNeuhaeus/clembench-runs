@@ -1,0 +1,11 @@
+,clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success)
+lang,de_google,de_google,es_google,es_google,ru_google,ru_google,te_google,te_google,tk_google,tk_google,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,
+aya-23,0.0,4.75,1.6,9.35,17.3,18.3,0.0,0.0,0.55,0.0,8.0,3.35
+llama-3,4.25,0.0,0.0,3.35,5.0,0.0,0.0,3.85,0.0,0.0,12.6,8.9
+llama-3-de,17.85,9.5,43.8,28.7,0.0,0.0,3.55,2.6,0.0,0.0,22.45,15.25
+llama-3.1,97.1,80.75,94.55,82.05,41.95,27.7,12.8,0.0,1.45,6.9,9.45,11.2
+mixtral,6.9,7.6,22.05,23.35,19.2,10.1,0.0,0.0,0.0,0.0,19.0,23.7
+qwen,8.45,14.15,30.35,33.35,10.15,6.3,1.5,2.1,0.0,0.0,0.0,0.0
+Ø models,22.42,19.46,32.06,30.02,15.6,10.4,2.98,1.42,0.33,1.15,11.92,10.4

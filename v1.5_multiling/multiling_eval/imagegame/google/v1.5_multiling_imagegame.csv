@@ -1,0 +1,13 @@
+lang,model,clemscore (Played * Success),% Played,% Success (of Played),Aborted at Player 1 (of Aborted)
+de_google,Llama-3-70B-Instruct,,0.0,,100.0
+de_google,Mixtral-8x22B-Instruct-v0.1,,0.0,,100.0
+es_google,Llama-3-70B-Instruct,,0.0,,100.0
+es_google,Mixtral-8x22B-Instruct-v0.1,,0.0,,100.0
+ru_google,Llama-3-70B-Instruct,2.5,2.5,100.0,100.0
+ru_google,Mixtral-8x22B-Instruct-v0.1,,0.0,,100.0
+te_google,Llama-3-70B-Instruct,,0.0,,100.0
+te_google,Mixtral-8x22B-Instruct-v0.1,,0.0,,77.5
+tk_google,Llama-3-70B-Instruct,,0.0,,100.0
+tk_google,Mixtral-8x22B-Instruct-v0.1,,0.0,,100.0
+tr_google,Llama-3-70B-Instruct,,0.0,,100.0
+tr_google,Mixtral-8x22B-Instruct-v0.1,,0.0,,100.0

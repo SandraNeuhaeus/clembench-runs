@@ -1,0 +1,6 @@
+,clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success)
+lang,de_google,de_google,es_google,es_google,ru_google,ru_google,te_google,te_google,tk_google,tk_google,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,
+Llama-3-70B-Instruct,,,,,5.0,,,,,,,
+Mixtral-8x22B-Instruct-v0.1,,,,,,,,,,,,

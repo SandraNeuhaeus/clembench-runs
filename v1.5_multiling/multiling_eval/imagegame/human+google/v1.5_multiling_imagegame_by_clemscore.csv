@@ -1,0 +1,9 @@
+,clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success)
+lang,de,de_google,en,es,es_google,ru,ru_google,te,te_google,tk,tk_google,tr,tr_google
+model,,,,,,,,,,,,,
+Llama-3-70B-Instruct,,,2.5,5.0,,,2.5,,,,,,
+Llama-3-SauerkrautLM-70b-Instruct,,,10.07,3.75,,1.52,,1.45,,,,,
+Meta-Llama-3.1-70B-Instruct,43.38,,85.82,59.08,,52.4,,,,5.45,,32.4,
+Mixtral-8x22B-Instruct-v0.1,,,,,,,,,,,,,
+Qwen1.5-72B-Chat,8.4,,34.25,2.43,,11.43,,0.43,,,,,
+aya-23-35B,,,,,,,,,,,,,

@@ -1,0 +1,10 @@
+,clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success),clemscore (Played * Success)
+lang,de,de,de_google,de_google,en,en,es,es,es_google,es_google,ru,ru,ru_google,ru_google,te,te,te_google,te_google,tk,tk,tk_google,tk_google,tr,tr,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,,,,,,,,,,,,,,,
+Llama-3-70B-Instruct,,,,,5.0,,10.0,,,,,,5.0,,,,,,,,,,,,,
+Llama-3-SauerkrautLM-70b-Instruct,,,,,12.3,7.85,7.5,,,,3.05,,,,2.9,,,,,,,,,,,
+Meta-Llama-3.1-70B-Instruct,57.5,29.25,,,86.8,84.85,55.95,62.2,,,45.0,59.8,,,,,,,5.55,5.35,,,13.45,51.35,,
+Mixtral-8x22B-Instruct-v0.1,,,,,,,,,,,,,,,,,,,,,,,,,,
+Qwen1.5-72B-Chat,4.7,12.1,,,37.2,31.3,4.85,,,,15.1,7.75,,,0.85,,,,,,,,,,,
+aya-23-35B,,,,,,,,,,,,,,,,,,,,,,,,,,

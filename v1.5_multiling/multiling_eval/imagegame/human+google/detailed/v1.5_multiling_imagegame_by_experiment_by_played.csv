@@ -1,0 +1,10 @@
+,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played,% Played
+lang,de,de,de_google,de_google,en,en,es,es,es_google,es_google,ru,ru,ru_google,ru_google,te,te,te_google,te_google,tk,tk,tk_google,tk_google,tr,tr,tr_google,tr_google
+experiment,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids,0_compact_grids,1_random_grids
+model,,,,,,,,,,,,,,,,,,,,,,,,,,
+Llama-3-70B-Instruct,0.0,0.0,0.0,0.0,5.0,0.0,10.0,0.0,0.0,0.0,0.0,0.0,5.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Llama-3-SauerkrautLM-70b-Instruct,0.0,0.0,,,15.0,10.0,10.0,0.0,,,5.0,0.0,,,10.0,0.0,,,0.0,0.0,,,0.0,0.0,,
+Meta-Llama-3.1-70B-Instruct,65.0,35.0,,,90.0,95.0,60.0,75.0,,,50.0,80.0,,,0.0,0.0,,,10.0,10.0,,,15.0,60.0,,
+Mixtral-8x22B-Instruct-v0.1,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+Qwen1.5-72B-Chat,20.0,25.0,,,70.0,80.0,5.0,0.0,,,50.0,40.0,,,35.0,0.0,,,0.0,0.0,,,0.0,0.0,,
+aya-23-35B,0.0,0.0,,,0.0,0.0,0.0,0.0,,,0.0,0.0,,,0.0,0.0,,,0.0,0.0,,,0.0,0.0,,

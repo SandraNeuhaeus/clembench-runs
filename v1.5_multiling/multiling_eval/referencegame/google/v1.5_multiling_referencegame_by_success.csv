@@ -1,0 +1,10 @@
+,% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played),% Success (of Played)
+lang,de_google,es_google,ru_google,te_google,tk_google,tr_google,Ø langs
+model,,,,,,,
+aya-23,33.33,38.89,35.56,,,33.33,35.28
+llama-3,57.22,63.33,62.22,37.78,37.5,46.37,50.74
+llama-3-de,60.0,64.8,65.56,43.58,40.0,45.14,53.18
+llama-3.1,82.12,70.99,,60.0,,74.44,71.89
+mixtral,60.0,61.48,70.65,,,41.33,58.36
+qwen,38.33,38.89,40.24,33.33,,34.44,37.05
+Ø models,55.17,56.4,54.85,43.67,38.75,45.84,49.11
